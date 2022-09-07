@@ -1,0 +1,148 @@
+body {
+    font-family: Ubuntu;
+    margin-top: 0%;
+    margin: 0%; 
+  
+}
+
+
+ol {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+    color: azure;
+}
+
+.HeaderContainer {
+    background-color: rgb(57, 57, 71);
+    color: white;
+    padding-top: 10px;
+    height: 350px;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(Fonts/Ubuntu-Bold.ttf);
+  }  
+
+.ListContainer {
+    display: flex;
+    
+}
+
+.NavigationBar {
+    margin: 0%;
+    color: black;
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: flex;
+ 
+
+}
+
+.navigate {
+    position: fixed;
+}
+
+.ListStyle:hover {
+    text-decoration: underline;
+    background-color: rgb(19, 19, 27);
+}
+
+
+.ListStyle {
+    color: white;
+    list-style: none;
+    list-style-type: disc;
+    text-decoration: none;
+}
+
+.img1 {
+    float: left;
+    height: 30vw;
+    max-height: 150px;
+    min-height: 100px;
+    border-radius: 50%;
+ 
+}
+
+.text {
+    padding-top: 400px;
+
+}
+
+header {
+    
+}
+
+.button {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 8px;
+   
+}
+
+
+.dropbtn {
+    background-color: rgb(57, 57, 71);
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    width: 150px
+  }
+  
+  .dropmenu {
+    position: relative;
+    display: inline-block;
+  }
+  
+ 
+  .dropcont {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropcont a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  .dropcont a:hover  {
+    background-color: #ddd;
+    text-decoration: underline;
+  }
+  
+
+  .dropmenu:hover .dropcont {
+    display: block;
+  }
+
+  
+  
+  .dropmenu:hover .dropbtn {
+    background-color: rgb(19, 19, 27);
+  }
+
+  nav {
+    text-decoration: none;
+    color: #ddd;
+  }
