@@ -35,6 +35,7 @@ ol {
     
 }
 
+
 .NavigationBar {
     margin: 0%;
     color: black;
@@ -112,6 +113,7 @@ ol {
   .dropmenu {
     position: relative;
     display: inline-block;
+    overflow: hidden;
   }
   
  
