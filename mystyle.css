@@ -45,6 +45,7 @@ ol {
     padding: 14px 16px;
     text-decoration: none;
     display: flex;
+    
  
 
 }
@@ -80,9 +81,9 @@ ol {
 
 }
 
-header {
+/* header {
     
-}
+} */
 
 .button {
     display: block;
@@ -96,11 +97,16 @@ header {
 
 .dropbtn {
     background-color: rgb(57, 57, 71);
-    color: white;
+    color: #ddd;
     padding: 20px;
     font-size: 16px;
     border: none;
     width: 150px
+   
+  }
+
+  .dropmenu .dropbtn {
+    font-family: ubuntu;
   }
   
   .dropmenu {
@@ -134,15 +140,38 @@ header {
 
   .dropmenu:hover .dropcont {
     display: block;
+    
   }
 
-  
+
   
   .dropmenu:hover .dropbtn {
-    background-color: rgb(19, 19, 27);
+    text-decoration: underline;
+  }
+
+  .NavigationBar a:hover {
+    text-decoration: underline;
+  }  
+
+  .home {
+    text-decoration: none;
+    color: #ddd;
+  }
+
+  .KDJ {
+    text-decoration: none;
+    color: #ddd;
+  }
+
+  .YJH {
+    text-decoration: none;
+    color: #ddd;
   }
 
   nav {
-    text-decoration: none;
-    color: #ddd;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+    color: azure;
   }
