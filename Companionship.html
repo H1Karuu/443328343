@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  
+
+  <div class="HeaderContainer">
+    <img class="img1" src="Images/Life and Death Companions.jpg"  alt="LifeAndDeathCompanions">
+    <h1>Life and Death Companions</h1>
+  
+    <div class="NavigationBar">
+        <a href="index.html">Home</a>
+        <a href="KimDokja.html">Kim dokja</a>
+        <a href="YooJoonghyuk.html">YooJoonghyuk</a>
+        <a href="AboutPage.html">About this site</a>
+            
+         
+          <div class="dropdown">
+            <button class="dropbtn">More
+                <i class="fa fa-caret-down"></i>
+            </button>
+             <div class="dropdown-content">
+               <a href="Companionship.html" class="ListStyle">Companionship</a>
+               <a href="Fanart.html" class="ListStyle">Fanart</a>
+             </div>
+             </div>
+         
+         <div class="topnav">
+          <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search..." name="search">
+              <button type="submit"> <div class="SearchIcon">
+                <a href="#"><i class="fa fa-search"></i></a> 
+            </form>
+          </div>
+        </div>
+       
+      </div>
+
+      </div>
+      <!DOCTYPE html>
+      <html>
+      <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      </head>
+      <body>
+      
+      <div class="slideshow-container">
+      
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="/Images/banner1.webp" style="width:100%">
+        <div class="text">Companions</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="/Images/banner2.webp" style="width:100%">
+        <div class="stext">They totally love each other</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="/Images/Banner3.jpg" style="width:100%">
+        <div class="stext">Companionship</div>
+      </div>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+      
+      <script>
+      let slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+      </script>
+      
+      </body>
+      </html> 
+      
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">˄</button>
+
+<div style="background-color:black;color:white;padding:0px"></div>
+<div style="background-color:lightgrey;padding: 100px">
+  <strong></strong></div>
+
+<script>
+
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script> 
+
+
+
+<div class="FooterContainer">
+  <div class="ListContainer">
+    <ul class="IS">
+        <div class="row">
+            <div class="column">
+      <div class="myLHS">Contact us</div>
+      <li><a class="uLaS" href="url">Instagram</a></li>
+      <li><a class="uLaS" href="url">Twitter</a></li>
+      <li><a class="uLaS" href="url">Youtube</a></li>
+      <li><a class="uLaS" href="url">Facebook</a></li>
+     </div>
+
+
+
+</body>
+</html> 
